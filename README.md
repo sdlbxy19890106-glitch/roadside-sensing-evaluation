@@ -27,3 +27,8 @@ python analysis/reproduce.py --output results --plots
 ```
 
 The numerical supplement starts from aggregated experimental outputs. The source field recording, the individual roadside and aerial object lists, and the software used to generate reference trajectories and perform multi-object evaluation are outside this release.
+
+
+## Inspect the five vehicle-pairing cases
+
+[Five vehicle-pairing cases](supplement/vehicle-pairing-cases/) shows the vehicle assignments at matching distances of 5 m and 10 m. The five configurations cover all ten paired observation lists in which motor-vehicle assignments changed. The annotated images can be compared with the public intersection clip. Case 2 corresponds to Figure 5 of the paper.
