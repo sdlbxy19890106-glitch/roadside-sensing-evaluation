@@ -4,7 +4,7 @@ Increasing the matching distance from 5 to 10 m left the number of motor-vehicle
 
 ## What changed
 
-Both runs used the same observations, the same evaluation area and the same time offset (681 ms). At each paired time, the evaluator considered each aerial vehicle in turn and selected the nearest available roadside report of the same class within the specified distance. Only reports inside the evaluation area were eligible. Each roadside report could be assigned once.
+Both runs used the same observations, the same evaluation area and the same time offset (681 ms). At each paired time, the evaluator considered aerial objects in list order and selected the nearest unassigned roadside report across all classes. It accepted that report only if the classes agreed and the distance was strictly below the threshold. If either condition failed, the aerial object remained unmatched. Only reports inside the evaluation area were eligible. Each roadside report could be assigned once.
 
 In all five cases, vehicle A was just inside the evaluation area while its own roadside report, **a**, was outside. We identified the corresponding vehicles using the overhead images and the roadside tracks before the area filter was applied. Across the ten list pairs, A lay 0.62–1.63 m from **a**. At 5 m, A went unmatched. At 10 m, A took report **b** from a different vehicle 7.07–9.55 m away. Another vehicle then lost its match. Case 2 shows a three-vehicle chain: A took B's report, B took C's report and C went unmatched.
 
