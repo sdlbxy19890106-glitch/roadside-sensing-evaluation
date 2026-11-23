@@ -1,0 +1,11 @@
+case,list_pair,clip_frame_zero_based,aerial_elapsed_s,aligned_road_minus_aerial_ms,aerial_vehicle_gaining_match,outside_road_report,outside_report_distance_m,inside_road_report_taken,inside_report_distance_m,assignments_at_5_m,assignments_at_10_m
+1,1,99,9.900,-23,A,a,0.687,b,9.550,A=unmatched | B=b,A=b | B=unmatched
+1,2,99,9.900,17,A,a,1.130,b,9.123,A=unmatched | B=b,A=b | B=unmatched
+2,1,177,17.697,-19,A,a,0.620,b,9.062,A=unmatched | B=b | C=c,A=b | B=c | C=unmatched
+2,2,177,17.697,20,A,a,1.065,b,8.725,A=unmatched | B=b | C=c,A=b | B=c | C=unmatched
+3,1,184,18.398,0,A,a,0.775,b,7.145,A=unmatched | B=b,A=b | B=unmatched
+4,1,192,19.198,0,A,a,0.937,b,8.855,A=unmatched | B=b,A=b | B=unmatched
+4,2,193,19.297,-19,A,a,0.863,b,8.526,A=unmatched | B=b,A=b | B=unmatched
+4,3,193,19.297,21,A,a,1.178,b,8.042,A=unmatched | B=b,A=b | B=unmatched
+5,1,321,32.096,-19,A,a,1.184,b,7.678,A=unmatched | B=b,A=b | B=unmatched
+5,2,321,32.096,21,A,a,1.627,b,7.071,A=unmatched | B=b,A=b | B=unmatched
